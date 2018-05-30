@@ -7,12 +7,29 @@
 	<packaging>war</packaging>
 
 	<dependencies>
+	
+	
+<!-- 		<dependency> -->
+<!-- 			<groupId>javax</groupId> -->
+<!-- 			<artifactId>javaee-api</artifactId> -->
+<!-- 			<version>7.0</version> -->
+<!-- 			<scope>provided</scope> -->
+<!-- 		</dependency> -->
+		
+		<!-- https://mvnrepository.com/artifact/com.sun.faces/jsf-api -->
 		<dependency>
-			<groupId>javax</groupId>
-			<artifactId>javaee-api</artifactId>
-			<version>7.0</version>
-			<scope>provided</scope>
+		    <groupId>com.sun.faces</groupId>
+		    <artifactId>jsf-api</artifactId>
+		    <version>2.2.17</version>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.sun.faces/jsf-impl -->
+		<dependency>
+		    <groupId>com.sun.faces</groupId>
+		    <artifactId>jsf-impl</artifactId>
+		    <version>2.2.17</version>
+		</dependency>
+		
 
 		<dependency>
 			<groupId>org.primefaces</groupId>
@@ -22,7 +39,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>pedidovendaa</finalName>
+		<finalName>pedidovenda</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
